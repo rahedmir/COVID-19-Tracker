@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">COVID-19 Tracker</string>
+    <string name="total_cases">Total Cases</string>
+    <string name="recovered">Recovered</string>
+    <string name="_0">0</string>
+    <string name="track_countries">Track Countries</string>
+    <string name="today_deaths">Today Deaths</string>
+    <string name="affected_countries">Affected Countries</string>
+    <string name="critical">Critical</string>
+    <string name="today_cases">Today Cases</string>
+
+    <string name="active">Active</string>
+
+    <string name="total_deaths">Total Deaths</string>
+
+    <string name="cases">Cases</string>
+
+    <string name="global_stats">GLOBAL STATS</string>
+    <string name="deaths">Deaths</string>
+    <string name="search">Search</string>
+    <string name="continent">Continent</string>
+    <string name="country">Country</string>
+    <string name="tests">Tests</string>
+    <string name="today_casesx">Today Cases</string>
+    <string name="total_deathsx">Total Deaths</string>
+    <string name="criticalx">Critical</string>
+    <string name="activex">Active</string>
+    <string name="recorvedx">Recorved</string>
+    <string name="today_deathsx">Today Deaths</string>
+    <string name="country_name">Country Name</string>
+    <string name="todo">TODO</string>
+    <string name="country_not_found">Country not found</string>
+    <string name="clean_your_hands_often_use_soap_and_water_or_an_alcohol_based_hand_rub">Clean your hands often. Use soap and water, or an alcohol-based hand rub.</string>
+    <string name="stay_home_if_you_feel_unwell">Stay home if you feel unwell.</string>
+    <string name="if_you_have_a_fever_cough_and_difficulty_breathing_seek_medical_attention_call_in_advance">If you have a fever, cough and difficulty breathing, seek medical attention. Call in advance.</string>
+    <string name="follow_the_directions_of_your_local_health_authority">Follow the directions of your local health authority.</string>
+    <string name="don_t_touch_your_eyes_nose_or_mouth_cover_your_nose_and_mouth_with_your_bent_elbow_or_a_tissue_when_you_cough_or_sneeze">Don’t touch your eyes, nose or mouth. Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.</string>
+    <string name="maintain_a_safe_distance_from_anyone_who_is_coughing_or_sneezing">Maintain a safe distance from anyone who is coughing or sneezing.</string>
+    <string name="a1">TODO</string>
+    <string name="a2">TODO</string>
+    <string name="a3">TODO</string>
+    <string name="a4">TODO</string>
+    <string name="a5">TODO</string>
+    <string name="a6">TODO</string>
+    <string name="try_again">TRY AGAIN</string>
+    <string name="internet_connection_lost">Internet Connection Lost</string>
+    <string name="no_connection">TODO</string>
+
+</resources>

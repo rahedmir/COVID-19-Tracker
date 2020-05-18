@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/world"
+    android:icon="@drawable/y"
+    android:title="Global"
+    app:showAsAction="always"/>
+
+    <item android:id="@+id/countries"
+        android:icon="@drawable/x"
+        android:title="Countries"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/prevention"
+        android:icon="@drawable/prevent"
+        android:title="Prevention"
+        app:showAsAction="ifRoom"/>
+</menu>

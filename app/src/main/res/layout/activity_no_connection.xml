@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".noConnection"
+    android:id="@+id/noConnection"
+    android:background="#ffffff">
+
+<ImageView
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    android:src="@drawable/cat"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/imgNoConnection"
+    android:contentDescription="@string/no_connection" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/internet_connection_lost"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_below="@id/imgNoConnection"
+        android:textAlignment="center"
+        android:id="@+id/textView"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnNoConnection"
+        android:text="@string/try_again"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/roundbtn"
+        android:layout_marginBottom="15dp"/>
+
+
+
+</RelativeLayout>

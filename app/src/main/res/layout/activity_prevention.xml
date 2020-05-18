@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prevention"
+    android:background="@color/color_white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="10dp"
+            android:id="@+id/card1">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="90dp"
+                android:src="@drawable/wash"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/a1" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:text="@string/clean_your_hands_often_use_soap_and_water_or_an_alcohol_based_hand_rub"
+    android:layout_marginStart="140dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="10dp"
+    />
+
+
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/card2"
+                android:layout_below="@id/card1">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/distance2"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:contentDescription="@string/a2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="@string/maintain_a_safe_distance_from_anyone_who_is_coughing_or_sneezing"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/card3"
+        android:layout_below="@id/card2">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:src="@drawable/touch"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/a3" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="@string/don_t_touch_your_eyes_nose_or_mouth_cover_your_nose_and_mouth_with_your_bent_elbow_or_a_tissue_when_you_cough_or_sneeze"
+            android:layout_marginStart="140dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            />
+    </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/card4"
+                android:layout_below="@id/card3">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/home"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:contentDescription="@string/a4" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="@string/stay_home_if_you_feel_unwell"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/card5"
+                android:layout_below="@id/card4">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/medical"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:contentDescription="@string/a5" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="@string/if_you_have_a_fever_cough_and_difficulty_breathing_seek_medical_attention_call_in_advance"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/card6"
+                android:layout_below="@id/card5"
+                android:layout_marginBottom="80dp">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/hospital"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:contentDescription="@string/a6" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="@string/follow_the_directions_of_your_local_health_authority"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_navigation"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btnNav"
+        android:background="@color/colorPrimaryDark"
+        app:itemTextColor="@color/color_white"
+        app:itemIconTint="@color/color_white" />
+
+</RelativeLayout>
