@@ -2,7 +2,7 @@
 
 Download the apk file <a href="https://www.dropbox.com/s/q87wsvyn5ur2n5i/COVID-19%20Tracker.apk?dl=1">Download</a>
 
-Public JSON API 
+<h4>Public JSON API </h4>
 
 <a href="https://corona.lmao.ninja/v2/all">https://corona.lmao.ninja/v2/all</a>
 
